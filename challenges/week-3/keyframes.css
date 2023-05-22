@@ -7,7 +7,7 @@
     from {color: #DCDEFD;}
     to {color: #6A6EF7;}
   }
-  
+
   @keyframes backgroundFade {
     from{background-color: white;}
     to{background-color: rgb(0, 0, 0, 50%);}
@@ -59,3 +59,14 @@
       animation-timing-function: ease-out;
     }
   }  
+
+  @keyframes scaleOut{
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 1;
+    }
+  }

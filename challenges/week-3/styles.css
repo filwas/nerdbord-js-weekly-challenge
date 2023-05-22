@@ -44,7 +44,7 @@ body{
 }
 
 .rectangle-animation-reverse{
-  animation: bounceIn 1s reverse;
+  animation: scaleOut 1s forwards;
 }
 
 
